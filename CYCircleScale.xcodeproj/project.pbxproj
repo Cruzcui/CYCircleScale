@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD5DC871A36A26A00A70B86 /* CYCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD5DC861A36A26A00A70B86 /* CYCircle.m */; };
+		ACDDE2751A1C7A8C00B6D001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE2741A1C7A8C00B6D001 /* main.m */; };
+		ACDDE2781A1C7A8C00B6D001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE2771A1C7A8C00B6D001 /* AppDelegate.m */; };
+		ACDDE27B1A1C7A8C00B6D001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE27A1A1C7A8C00B6D001 /* ViewController.m */; };
+		ACDDE27E1A1C7A8C00B6D001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE27C1A1C7A8C00B6D001 /* Main.storyboard */; };
+		ACDDE2801A1C7A8C00B6D001 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE27F1A1C7A8C00B6D001 /* Images.xcassets */; };
+		ACDDE2831A1C7A8C00B6D001 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDDE2811A1C7A8C00B6D001 /* LaunchScreen.xib */; };
+		ACDDE28F1A1C7A8C00B6D001 /* CYCircleScaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDDE28E1A1C7A8C00B6D001 /* CYCircleScaleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDDE2891A1C7A8C00B6D001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDDE2671A1C7A8C00B6D001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDDE26E1A1C7A8C00B6D001;
+			remoteInfo = CYCircleScale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD5DC851A36A26A00A70B86 /* CYCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCircle.h; sourceTree = "<group>"; };
+		ACD5DC861A36A26A00A70B86 /* CYCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCircle.m; sourceTree = "<group>"; };
+		ACDDE26F1A1C7A8C00B6D001 /* CYCircleScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCircleScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDDE2731A1C7A8C00B6D001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDDE2741A1C7A8C00B6D001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDDE2761A1C7A8C00B6D001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACDDE2771A1C7A8C00B6D001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACDDE2791A1C7A8C00B6D001 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACDDE27A1A1C7A8C00B6D001 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACDDE27D1A1C7A8C00B6D001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDDE27F1A1C7A8C00B6D001 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACDDE2821A1C7A8C00B6D001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACDDE2881A1C7A8C00B6D001 /* CYCircleScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYCircleScaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDDE28D1A1C7A8C00B6D001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDDE28E1A1C7A8C00B6D001 /* CYCircleScaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCircleScaleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDDE26C1A1C7A8C00B6D001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDDE2851A1C7A8C00B6D001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDDE2661A1C7A8C00B6D001 = {
+			isa = PBXGroup;
+			children = (
+				ACDDE2711A1C7A8C00B6D001 /* CYCircleScale */,
+				ACDDE28B1A1C7A8C00B6D001 /* CYCircleScaleTests */,
+				ACDDE2701A1C7A8C00B6D001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDDE2701A1C7A8C00B6D001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDE26F1A1C7A8C00B6D001 /* CYCircleScale.app */,
+				ACDDE2881A1C7A8C00B6D001 /* CYCircleScaleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDDE2711A1C7A8C00B6D001 /* CYCircleScale */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDE2761A1C7A8C00B6D001 /* AppDelegate.h */,
+				ACDDE2771A1C7A8C00B6D001 /* AppDelegate.m */,
+				ACDDE2791A1C7A8C00B6D001 /* ViewController.h */,
+				ACDDE27A1A1C7A8C00B6D001 /* ViewController.m */,
+				ACDDE27C1A1C7A8C00B6D001 /* Main.storyboard */,
+				ACDDE27F1A1C7A8C00B6D001 /* Images.xcassets */,
+				ACDDE2811A1C7A8C00B6D001 /* LaunchScreen.xib */,
+				ACDDE2721A1C7A8C00B6D001 /* Supporting Files */,
+				ACD5DC851A36A26A00A70B86 /* CYCircle.h */,
+				ACD5DC861A36A26A00A70B86 /* CYCircle.m */,
+			);
+			path = CYCircleScale;
+			sourceTree = "<group>";
+		};
+		ACDDE2721A1C7A8C00B6D001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDE2731A1C7A8C00B6D001 /* Info.plist */,
+				ACDDE2741A1C7A8C00B6D001 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACDDE28B1A1C7A8C00B6D001 /* CYCircleScaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDE28E1A1C7A8C00B6D001 /* CYCircleScaleTests.m */,
+				ACDDE28C1A1C7A8C00B6D001 /* Supporting Files */,
+			);
+			path = CYCircleScaleTests;
+			sourceTree = "<group>";
+		};
+		ACDDE28C1A1C7A8C00B6D001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDE28D1A1C7A8C00B6D001 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDDE26E1A1C7A8C00B6D001 /* CYCircleScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDDE2921A1C7A8C00B6D001 /* Build configuration list for PBXNativeTarget "CYCircleScale" */;
+			buildPhases = (
+				ACDDE26B1A1C7A8C00B6D001 /* Sources */,
+				ACDDE26C1A1C7A8C00B6D001 /* Frameworks */,
+				ACDDE26D1A1C7A8C00B6D001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYCircleScale;
+			productName = CYCircleScale;
+			productReference = ACDDE26F1A1C7A8C00B6D001 /* CYCircleScale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDDE2871A1C7A8C00B6D001 /* CYCircleScaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDDE2951A1C7A8C00B6D001 /* Build configuration list for PBXNativeTarget "CYCircleScaleTests" */;
+			buildPhases = (
+				ACDDE2841A1C7A8C00B6D001 /* Sources */,
+				ACDDE2851A1C7A8C00B6D001 /* Frameworks */,
+				ACDDE2861A1C7A8C00B6D001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDDE28A1A1C7A8C00B6D001 /* PBXTargetDependency */,
+			);
+			name = CYCircleScaleTests;
+			productName = CYCircleScaleTests;
+			productReference = ACDDE2881A1C7A8C00B6D001 /* CYCircleScaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDDE2671A1C7A8C00B6D001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = commondec;
+				TargetAttributes = {
+					ACDDE26E1A1C7A8C00B6D001 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = NCP62ZJWRR;
+					};
+					ACDDE2871A1C7A8C00B6D001 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ACDDE26E1A1C7A8C00B6D001;
+					};
+				};
+			};
+			buildConfigurationList = ACDDE26A1A1C7A8C00B6D001 /* Build configuration list for PBXProject "CYCircleScale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDDE2661A1C7A8C00B6D001;
+			productRefGroup = ACDDE2701A1C7A8C00B6D001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDDE26E1A1C7A8C00B6D001 /* CYCircleScale */,
+				ACDDE2871A1C7A8C00B6D001 /* CYCircleScaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDDE26D1A1C7A8C00B6D001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDDE27E1A1C7A8C00B6D001 /* Main.storyboard in Resources */,
+				ACDDE2831A1C7A8C00B6D001 /* LaunchScreen.xib in Resources */,
+				ACDDE2801A1C7A8C00B6D001 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDDE2861A1C7A8C00B6D001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDDE26B1A1C7A8C00B6D001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDDE27B1A1C7A8C00B6D001 /* ViewController.m in Sources */,
+				ACDDE2781A1C7A8C00B6D001 /* AppDelegate.m in Sources */,
+				ACDDE2751A1C7A8C00B6D001 /* main.m in Sources */,
+				ACD5DC871A36A26A00A70B86 /* CYCircle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDDE2841A1C7A8C00B6D001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDDE28F1A1C7A8C00B6D001 /* CYCircleScaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDDE28A1A1C7A8C00B6D001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDDE26E1A1C7A8C00B6D001 /* CYCircleScale */;
+			targetProxy = ACDDE2891A1C7A8C00B6D001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDDE27C1A1C7A8C00B6D001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDDE27D1A1C7A8C00B6D001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDDE2811A1C7A8C00B6D001 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDDE2821A1C7A8C00B6D001 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDDE2901A1C7A8C00B6D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDDE2911A1C7A8C00B6D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDDE2931A1C7A8C00B6D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Gao (27SH39HVXH)";
+				INFOPLIST_FILE = CYCircleScale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACDDE2941A1C7A8C00B6D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Gao (27SH39HVXH)";
+				INFOPLIST_FILE = CYCircleScale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACDDE2961A1C7A8C00B6D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYCircleScaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYCircleScale.app/CYCircleScale";
+			};
+			name = Debug;
+		};
+		ACDDE2971A1C7A8C00B6D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYCircleScaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYCircleScale.app/CYCircleScale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDDE26A1A1C7A8C00B6D001 /* Build configuration list for PBXProject "CYCircleScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDDE2901A1C7A8C00B6D001 /* Debug */,
+				ACDDE2911A1C7A8C00B6D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDDE2921A1C7A8C00B6D001 /* Build configuration list for PBXNativeTarget "CYCircleScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDDE2931A1C7A8C00B6D001 /* Debug */,
+				ACDDE2941A1C7A8C00B6D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDDE2951A1C7A8C00B6D001 /* Build configuration list for PBXNativeTarget "CYCircleScaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDDE2961A1C7A8C00B6D001 /* Debug */,
+				ACDDE2971A1C7A8C00B6D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDDE2671A1C7A8C00B6D001 /* Project object */;
+}
