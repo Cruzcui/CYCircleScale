@@ -31,20 +31,12 @@
 }
 
 -(void)drawyuan:(CGRect)rect{
-        CGRect pathRect = CGRectInset(self.layer.bounds, 0, 0);
-        CGPoint topPoint = CGPointMake(rect.size.width / 2, 0);
-        CGPoint rightPoint = CGPointMake(rect.size.width, rect.size.height/2);
-        CGPoint bottomPoint = CGPointMake(rect.size.width / 2, rect.size.height);
-        CGPoint leftPoint = CGPointMake(0, rect.size.height /2);
-        UIBezierPath * path = [UIBezierPath bezierPath];
-        [path moveToPoint:topPoint];
     
-        [path addQuadCurveToPoint:rightPoint controlPoint:CGPointMake(rect.size.width, 0)];
-        [path addQuadCurveToPoint:bottomPoint controlPoint:CGPointMake(rect.size.width, rect.size.height)];
-        [path addQuadCurveToPoint:leftPoint controlPoint:CGPointMake(0, rect.size.height)];
-        [path addQuadCurveToPoint:topPoint controlPoint:CGPointMake(0, 0)];
-//        [path addQuadCurveToPoint:bottomPoint controlPoint:leftPoint];
-//        [path addQuadCurveToPoint:leftPoint controlPoint:topPoint];
+    CGRect pathRect = CGRectInset(self.layer.bounds, 0, 0);
+            UIBezierPath * path = [UIBezierPath bezierPath];
+    
+    [path addArcWithCenter:CGPointMake(rect.size.width/2, rect.size.height/2) radius:rect.size.width / 2 startAngle:-M_PI_2 endAngle:3*M_2_PI+M_PI clockwise:YES];
+    
     
         CAShapeLayer * pathLayer = [CAShapeLayer layer];
         pathLayer.frame = CGRectMake(0, 0, rect.size.width, rect.size.height);
